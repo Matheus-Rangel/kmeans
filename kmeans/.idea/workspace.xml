@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3698f9d7-6203-4255-b023-e2e5e2c9cbfd" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1QkzGHG8mhqZF7cKWxjTLv5fVyi" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main 16T">
+    <configuration name="Main 16T" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ufrn.br.Main" />
+      <module name="kmeans" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\mathe\Documents\kmeans\data\iris.data 3 5000 16" />
+      <option name="VM_PARAMETERS" value="-XX:+UnlockCommercialFeatures -XX:+UseG1GC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main 1T" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ufrn.br.Main" />
+      <module name="kmeans" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\mathe\Documents\kmeans\data\iris.data 3 5000 1" />
+      <option name="VM_PARAMETERS" value="-XX:+UnlockCommercialFeatures -XX:+UseG1GC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main 2T" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ufrn.br.Main" />
+      <module name="kmeans" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\mathe\Documents\kmeans\data\iris.data 3 5000 2" />
+      <option name="VM_PARAMETERS" value="-XX:+UnlockCommercialFeatures -XX:+UseG1GC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main 4T" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ufrn.br.Main" />
+      <module name="kmeans" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\mathe\Documents\kmeans\data\iris.data 3 5000 4" />
+      <option name="VM_PARAMETERS" value="-XX:+UnlockCommercialFeatures -XX:+UseG1GC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main 8T" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ufrn.br.Main" />
+      <module name="kmeans" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\mathe\Documents\kmeans\data\iris.data 3 5000 8" />
+      <option name="VM_PARAMETERS" value="-XX:+UnlockCommercialFeatures -XX:+UseG1GC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main 1T" />
+      <item itemvalue="Application.Main 2T" />
+      <item itemvalue="Application.Main 4T" />
+      <item itemvalue="Application.Main 8T" />
+      <item itemvalue="Application.Main 16T" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3698f9d7-6203-4255-b023-e2e5e2c9cbfd" name="Default Changelist" comment="" />
+      <created>1568329284409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568329284409</updated>
+      <workItem from="1568329287405" duration="2797000" />
+      <workItem from="1568550084382" duration="18933000" />
+      <workItem from="1568569326204" duration="2710000" />
+      <workItem from="1568573829826" duration="5981000" />
+      <workItem from="1568583164920" duration="7147000" />
+      <workItem from="1568594246474" duration="1317000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kmeans$Main_16T.ic" NAME="Main 16T Coverage Results" MODIFIED="1568567946689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
