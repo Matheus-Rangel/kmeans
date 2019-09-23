@@ -2,40 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3698f9d7-6203-4255-b023-e2e5e2c9cbfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/src/main/java/br/ufrn/matheusrangel/kmeansjmeter/KmeansTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmh/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmh/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmh/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmh/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmh/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmh/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmh/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmh/data/iris.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmh/data/iris_original.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmh/data/result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kmeansjmh/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/kmeans/ClusterizeResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/kmeans/ForkJoinClusterize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjcstress/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kmeans.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../kmeansjmeter/kmeansjmeter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ufrn/br/Iris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/Iris.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ufrn/br/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ufrn/br/kmeans/Cluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/kmeans/Cluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ufrn/br/kmeans/ClusterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/kmeans/ClusterData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ufrn/br/kmeans/Clusterize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/kmeans/Clusterize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ufrn/br/kmeans/Kmeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/kmeans/Kmeans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ufrn/br/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ufrn/br/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/kmeans-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/kmeans-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/kmeans/Clusterize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/kmeans/Clusterize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/kmeans/Kmeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/kmeans/Kmeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/kmeans.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufrn/matheusrangel/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/ufrn/matheusrangel/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufrn/matheusrangel/kmeans/Clusterize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/ufrn/matheusrangel/kmeans/Clusterize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufrn/matheusrangel/kmeans/Kmeans$Callback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/ufrn/matheusrangel/kmeans/Kmeans$Callback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufrn/matheusrangel/kmeans/Kmeans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/ufrn/matheusrangel/kmeans/Kmeans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ufrn/br/Iris$Tipo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ufrn/br/Iris.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ufrn/br/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ufrn/br/kmeans/Cluster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ufrn/br/kmeans/ClusterData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ufrn/br/kmeans/Clusterize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ufrn/br/kmeans/Kmeans$Callback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ufrn/br/kmeans/Kmeans.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmeansjcstress/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kmeansjcstress/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmeansjcstress/kmeansjcstress.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmeansjcstress/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kmeansjcstress/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmeansjcstress/results/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../kmeansjcstress/results/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmeansjcstress/results/ufrn.br.matheusrangel.ConcurrencyTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../kmeansjcstress/results/ufrn.br.matheusrangel.ConcurrencyTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmeansjcstress/src/main/java/ufrn/br/matheusrangel/ConcurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kmeansjcstress/src/main/java/ufrn/br/matheusrangel/ConcurrencyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmeansjcstress/target/classes/org/openjdk/jcstress/infra/results/B_Result_jcstress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmeansjcstress/target/classes/org/openjdk/jcstress/infra/results/B_Result_jcstress_c1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmeansjcstress/target/classes/org/openjdk/jcstress/infra/results/B_Result_jcstress_c2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kmeansjcstress/target/classes/ufrn/br/matheusrangel/ConcurrencyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../kmeansjcstress/target/classes/ufrn/br/matheusrangel/ConcurrencyTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,9 +99,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main 16T">
+  <component name="RunManager" selected="Application.Main 4T">
     <configuration name="Main 16T" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ufrn.br.Main" />
+      <option name="MAIN_CLASS_NAME" value="br.ufrn.matheusrangel.Main" />
       <module name="kmeans" />
       <option name="PROGRAM_PARAMETERS" value="C:\Users\mathe\Documents\kmeans\data\iris.data 3 5000 16" />
       <option name="VM_PARAMETERS" value="-XX:+UnlockCommercialFeatures -XX:+UseG1GC" />
@@ -110,7 +110,7 @@
       </method>
     </configuration>
     <configuration name="Main 1T" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ufrn.br.Main" />
+      <option name="MAIN_CLASS_NAME" value="br.ufrn.matheusrangel.Main" />
       <module name="kmeans" />
       <option name="PROGRAM_PARAMETERS" value="C:\Users\mathe\Documents\kmeans\data\iris.data 3 5000 1" />
       <option name="VM_PARAMETERS" value="-XX:+UnlockCommercialFeatures -XX:+UseG1GC" />
@@ -119,7 +119,7 @@
       </method>
     </configuration>
     <configuration name="Main 2T" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ufrn.br.Main" />
+      <option name="MAIN_CLASS_NAME" value="br.ufrn.matheusrangel.Main" />
       <module name="kmeans" />
       <option name="PROGRAM_PARAMETERS" value="C:\Users\mathe\Documents\kmeans\data\iris.data 3 5000 2" />
       <option name="VM_PARAMETERS" value="-XX:+UnlockCommercialFeatures -XX:+UseG1GC" />
@@ -128,16 +128,16 @@
       </method>
     </configuration>
     <configuration name="Main 4T" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ufrn.br.Main" />
+      <option name="MAIN_CLASS_NAME" value="br.ufrn.matheusrangel.Main" />
       <module name="kmeans" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\mathe\Documents\kmeans\data\iris.data 3 5000 4" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\mathe\Documents\ProgramacaoConcorrente\kmeans\data\iris.data 3 5000 4" />
       <option name="VM_PARAMETERS" value="-XX:+UnlockCommercialFeatures -XX:+UseG1GC" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main 8T" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ufrn.br.Main" />
+      <option name="MAIN_CLASS_NAME" value="br.ufrn.matheusrangel.Main" />
       <module name="kmeans" />
       <option name="PROGRAM_PARAMETERS" value="C:\Users\mathe\Documents\kmeans\data\iris.data 3 5000 8" />
       <option name="VM_PARAMETERS" value="-XX:+UnlockCommercialFeatures -XX:+UseG1GC" />
@@ -171,6 +171,7 @@
       <workItem from="1568594246474" duration="1317000" />
       <workItem from="1569254022288" duration="422000" />
       <workItem from="1569254498552" duration="2102000" />
+      <workItem from="1569258671491" duration="4683000" />
     </task>
     <servers />
   </component>
@@ -189,6 +190,22 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/Main.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/Main.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/kmeans$Main_16T.ic" NAME="Main 16T Coverage Results" MODIFIED="1568567946689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

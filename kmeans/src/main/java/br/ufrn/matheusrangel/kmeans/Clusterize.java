@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Clusterize<T extends ClusterData<T>> implements Runnable {
+public class Clusterize<T extends ClusterData<T>> implements Runnable{
     private List<T> values;
     private Kmeans.Callback callback;
     private List<Cluster<T>> currentClusters;
@@ -74,6 +74,14 @@ public class Clusterize<T extends ClusterData<T>> implements Runnable {
         while(flag){
             flag = clusterize();
         };
-        callback.updateBestCluster(currentClusters, getVariance());
+        callback.updateBestCluster(new ClusterizeResult<T>(currentClusters, getVariance()));
+    }
+
+    protected ClusterizeResult compute() {
+        boolean flag = true;
+        while(flag){
+            flag = clusterize();
+        };
+        return new ClusterizeResult<T>(currentClusters, getVariance());
     }
 }

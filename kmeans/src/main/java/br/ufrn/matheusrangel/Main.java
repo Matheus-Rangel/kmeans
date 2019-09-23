@@ -43,7 +43,7 @@ public class Main {
         k.run();
         Instant end = Instant.now();
         printResult(k.getBestClusters(), k.getBestVariance());
-        saveResult(Paths.get("C:\\Users\\mathe\\Documents\\kmeans\\data\\result.txt"), k.getBestClusters());
+//        saveResult(Paths.get("C:\\Users\\mathe\\Documents\\kmeans\\data\\result.txt"), k.getBestClusters());
         System.out.println("Total Execution time: "+ Duration.between(start, end).toMillis());
     }
     public static void saveResult(Path p, List<Cluster<Iris>> clusters) throws IOException {

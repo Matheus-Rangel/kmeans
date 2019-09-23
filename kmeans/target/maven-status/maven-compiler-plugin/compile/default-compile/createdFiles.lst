@@ -1,8 +1,8 @@
 br\ufrn\matheusrangel\Main.class
-br\ufrn\matheusrangel\kmeans\Kmeans.class
-br\ufrn\matheusrangel\kmeans\Clusterize.class
-br\ufrn\matheusrangel\Iris.class
 br\ufrn\matheusrangel\Iris$Tipo.class
 br\ufrn\matheusrangel\kmeans\Cluster.class
+br\ufrn\matheusrangel\kmeans\Kmeans.class
 br\ufrn\matheusrangel\kmeans\ClusterData.class
+br\ufrn\matheusrangel\kmeans\Clusterize.class
+br\ufrn\matheusrangel\Iris.class
 br\ufrn\matheusrangel\kmeans\Kmeans$Callback.class

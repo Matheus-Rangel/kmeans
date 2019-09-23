@@ -3,8 +3,8 @@ package br.ufrn.matheusrangel.kmeans;
 import lombok.Getter;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
+import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class Kmeans<T extends ClusterData<T>> implements Runnable{
@@ -53,16 +53,18 @@ public class Kmeans<T extends ClusterData<T>> implements Runnable{
     }
 
     public interface Callback<T extends ClusterData<T>>{
-        void updateBestCluster(List<Cluster<T>> newClusters, Double variance);
+        void updateBestCluster(ClusterizeResult<T> result);
     }
-    private Callback<T> callback = (List<Cluster<T>> newClusters, Double variance) -> {
+    private Callback<T> callback = (clusterizeResult) -> {
+        Double variance = clusterizeResult.getVariance();
         synchronized (bestVariance){
             if(variance < bestVariance){
                 bestVariance = variance;
-                bestClusters = newClusters;
+                bestClusters = clusterizeResult.getClusterList();
             }
         }
     };
+
 
     @Override
     public void run() {
@@ -70,38 +72,11 @@ public class Kmeans<T extends ClusterData<T>> implements Runnable{
             return;
         }
         running.set(true);
-        List<List<Clusterize<T>>> jobs = new LinkedList<>();
-        curIteration = 0;
-        for (int i = 0; i < numJobs; i++) {
-            LinkedList<Clusterize<T>>job = new LinkedList<>();
-            for (int j = 0; j < maxIterations/numJobs; j++) {
-                try{
-                    job.add(new Clusterize<>(values, callback, iterations.get(curIteration)));
-                } catch (IndexOutOfBoundsException e){
-                    break;
-                }
-                curIteration++;
-            }
-            jobs.add(job);
-        }
-        List<Thread> threads = new LinkedList<>();
-        for(List<Clusterize<T>> job: jobs){
-            Thread t = new Thread(() -> {
-                for (Clusterize<T> clusterize: job
-                ) {
-                    clusterize.run();
-                }
-            });
-            threads.add(t);
-            t.start();
-        }
-        for (Thread t: threads) {
-            try {
-                t.join();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
+        ForkJoinPool pool = new ForkJoinPool();
+        ForkJoinClusterize<T> task = new ForkJoinClusterize<>(values, iterations, iterations.size()/numJobs);
+        ClusterizeResult<T> result = pool.invoke(task);
+        bestVariance = result.getVariance();
+        bestClusters = result.getClusterList();
         running.set(false);
     }
 }
