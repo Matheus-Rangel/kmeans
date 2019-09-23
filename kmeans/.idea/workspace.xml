@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3698f9d7-6203-4255-b023-e2e5e2c9cbfd" name="Default Changelist" comment="" />
+    <list default="true" id="3698f9d7-6203-4255-b023-e2e5e2c9cbfd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmeter/src/main/java/br/ufrn/matheusrangel/kmeansjmeter/KmeansTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmh/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmh/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmh/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmh/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmh/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmh/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmh/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmh/data/iris.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmh/data/iris_original.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmh/data/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeansjmh/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kmeans.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../kmeansjmeter/kmeansjmeter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ufrn/br/Iris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/Iris.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ufrn/br/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ufrn/br/kmeans/Cluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/kmeans/Cluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ufrn/br/kmeans/ClusterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/kmeans/ClusterData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ufrn/br/kmeans/Clusterize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/kmeans/Clusterize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ufrn/br/kmeans/Kmeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/matheusrangel/kmeans/Kmeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ufrn/br/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ufrn/br/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/kmeans-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/kmeans-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +57,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -33,7 +71,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1QkzGHG8mhqZF7cKWxjTLv5fVyi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -41,6 +81,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mathe\Documents\ProgramacaoConcorrente\kmeans" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,11 +169,26 @@
       <workItem from="1568573829826" duration="5981000" />
       <workItem from="1568583164920" duration="7147000" />
       <workItem from="1568594246474" duration="1317000" />
+      <workItem from="1569254022288" duration="422000" />
+      <workItem from="1569254498552" duration="2102000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/kmeans$Main_16T.ic" NAME="Main 16T Coverage Results" MODIFIED="1568567946689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -1,6 +1,6 @@
-package ufrn.br;
+package br.ufrn.matheusrangel;
 
-import ufrn.br.kmeans.ClusterData;
+import br.ufrn.matheusrangel.kmeans.ClusterData;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

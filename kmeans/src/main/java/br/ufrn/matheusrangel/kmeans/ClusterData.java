@@ -1,4 +1,4 @@
-package ufrn.br.kmeans;
+package br.ufrn.matheusrangel.kmeans;
 
 import java.util.List;
 

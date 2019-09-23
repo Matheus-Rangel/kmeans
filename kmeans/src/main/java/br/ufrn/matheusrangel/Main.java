@@ -1,7 +1,7 @@
-package ufrn.br;
+package br.ufrn.matheusrangel;
 
-import ufrn.br.kmeans.Cluster;
-import ufrn.br.kmeans.Kmeans;
+import br.ufrn.matheusrangel.kmeans.Cluster;
+import br.ufrn.matheusrangel.kmeans.Kmeans;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -13,12 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        Instant start = Instant.now();
-        Path p = Paths.get(args[0]);
-        int numClusters = Integer.parseInt(args[1]);
-        int maxIterations = Integer.parseInt(args[2]);
-        int numJobs = Integer.parseInt(args[3]);
+    public static List<Iris> parser(Path p) throws IOException {
         List<String> entries = Files.readAllLines(p);
         List<Iris> values = new ArrayList<>(entries.size());
         for (String entry: entries) {
@@ -35,6 +30,15 @@ public class Main {
                 continue;
             }
         }
+        return values;
+    }
+    public static void main(String[] args) throws IOException {
+        Instant start = Instant.now();
+        Path p = Paths.get(args[0]);
+        int numClusters = Integer.parseInt(args[1]);
+        int maxIterations = Integer.parseInt(args[2]);
+        int numJobs = Integer.parseInt(args[3]);
+        List<Iris> values = parser(p);
         Kmeans<Iris> k = new Kmeans<>(values, numClusters, numJobs, maxIterations);
         k.run();
         Instant end = Instant.now();

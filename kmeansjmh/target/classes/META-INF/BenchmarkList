@@ -1,0 +1,2 @@
+JMH S 33 br.ufrn.matheusrangel.MyBenchmark S 67 br.ufrn.matheusrangel.generated.MyBenchmark_testMultiThread_jmhTest S 15 testMultiThread S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 33 br.ufrn.matheusrangel.MyBenchmark S 68 br.ufrn.matheusrangel.generated.MyBenchmark_testSingleThread_jmhTest S 16 testSingleThread S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
